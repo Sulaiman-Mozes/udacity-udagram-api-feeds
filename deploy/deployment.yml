@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: udagram-api-feeds
-        image: isjustintime/udagram-api-feeds
+        image: sulaiman001/udagram-api-feeds
         ports:
         - containerPort: 8080
         livenessProbe:
